@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Hacemos accesorios de moda únicos y con ellos queremos que encuentres tu estilo personal. (Bs.As. - Arg) www.facebook.com/accesoriosandalucia.">
+    <meta name="author" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="img/favicon.ico">
+
+    <title>Accesorios Anda Lucía</title>
+
+    <link href="css/andalucia.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap-grid.css" rel="stylesheet">    
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link href="css/all.css" rel="stylesheet">
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top bg-white">
+        <a class="navbar-brand" href="#"><img src="img/logo-andalucia.png" alt="Accesorios Anda Lucía" title="Anda Lucía"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="collares.html">Collares</a>
+                <a class="dropdown-item" href="pulseras.html">Pulseras</a>
+                <a class="dropdown-item" href="aros.html">Aros</a>
+                <a class="dropdown-item" href="tobilleras.html">Tobilleras</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <form class="form-inline mt-2 mt-md-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Buscar..." aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
+          </form>
+          <button class="btn btn-outline-success my-2 my-sm-0 instagram" type="submit"><a href="https://www.instagram.com/accesoriosandalucia/?hl=es-la" target="new"><i class="fab fa-instagram"></i></a></button>
+        </div>
+      </nav>
+    </header>
+
+    <main>        
+      <div class="container marketing">
+
+        <div class="row featurette">
+            <div class="col-md-12">
+            <h2 class="featurette-heading">Envianos tu mensaje. <span class="text-muted">Te responderemos a la brevedad.</span></h2>
+            <p class="lead"> <a href="mailto:contacto@accesoriosandalucia.com.ar"> O escribinos a contacto@accesoriosandalucia.com.ar</a></p>
+            </div>
+        </div>
+        <hr/>
+
+        <div class="row-contacto">
+            <div class="col-md-12">
+              
+              <form id="contact" action="contacto.php" method="post">
+
+                  <input  name="nombre" placeholder="Nombre" type="text" required>
+
+                  <input name="email" placeholder="Email" type="email" required>
+
+                  <input  name="tel" placeholder="Teléfono" type="tel">
+
+                  <select name="categoria">
+                      <option>Seleccione una categoría</option>
+                      <option>Collares</option>
+                      <option>Pulseras</option>
+                      <option>Aros</option>
+                      <option>Tobilleras</option>
+                    </select>
+
+                  <textarea name="mensaje" placeholder="Mensaje...." required></textarea>
+
+                  <button name="submit" type="submit" class="btn btn-lg btn-color btn-submit btn-button btn-wide mt-10" id="contact-submit" data-submit="...Enviar">Enviar</button>
+ 
+              </form>
+            </div>
+          </div>    
+
+        <hr class="featurette-divider">
+      </div><!-- /.container -->
+
+        <!-- FOOTER -->
+      <footer class="container">
+        <p class="float-right top"><a href="#"><i class="fas fa-caret-square-up"></i></a></p>
+        <p>&copy; 2010 - Accesorios Anda Lucía - Todos los derechos reservados.</p>
+      </footer>
+    </main>
+</body>
+</html>
